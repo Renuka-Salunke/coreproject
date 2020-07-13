@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="co.core.tests.Corelogin">
+        <methods>
+          <include name="document"/>
+          <include name="init"/>
+          <include name="education"/>
+          <include name="passportdetail"/>
+          <include name="certification"/>
+          <include name="viewcoredet"/>
+          <include name="TeardownTest"/>
+          <include name="visa"/>
+          <include name="intialise"/>
+          <include name="currentlocation1"/>
+          <include name="skills"/>
+          <include name="home"/>
+          <include name="corecont"/>
+          <include name="familycoremenu"/>
+        </methods>
+      </class> <!-- co.core.tests.Corelogin -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
